@@ -14,7 +14,6 @@ services:
       MAX_PLAYERS: "10"
       SPAWN_PROTECTION: "0"
       VIEW_DISTANCE: "8"
-      RCON_PASSWORD: "password"
     volumes:
       # attach the relative directory 'data' to the container's /data path
       - ./data:/data
