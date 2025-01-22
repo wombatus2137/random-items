@@ -1,1 +1,1 @@
-docker run -d random-items-mc-1
+docker start random-items-mc-1
