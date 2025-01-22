@@ -1,7 +1,7 @@
 # random-items
 Docker container setup for random items Minecraft minigame.
 
-This project contains following datapacks:
+## This project contains following datapacks:
 
 [Vanilla Tweaks](https://vanillatweaks.net/)
 
