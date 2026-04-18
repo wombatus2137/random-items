@@ -8,16 +8,17 @@ services:
       - "25565:25565"
     environment:
       EULA: "TRUE"
-      VERSION: "26.1.2"
       TYPE: "PAPER"
+      VERSION: "26.1.2"
       INIT_MEMORY: "2G"
-      MAX_MEMORY: "8G"
+      MAX_MEMORY: "4G"
+      USE_MEOWICE_FLAGS: "true"
       ENABLE_COMMAND_BLOCK: "true"
+      SIMULATION_DISTANCE: "8"
+      VIEW_DISTANCE: "8"
       LEVEL: "los"
       MAX_PLAYERS: "10"
       SPAWN_PROTECTION: "0"
-      VIEW_DISTANCE: "8"
       MODRINTH_PROJECTS: "worldedit:release"
     volumes:
-      # attach the relative directory 'data' to the container's /data path
       - ./data:/data
