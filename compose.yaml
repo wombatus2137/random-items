@@ -17,8 +17,9 @@ services:
       SIMULATION_DISTANCE: "8"
       VIEW_DISTANCE: "8"
       LEVEL: "los"
-      MAX_PLAYERS: "10"
       SPAWN_PROTECTION: "0"
+      MAX_PLAYERS: "10"
       MODRINTH_PROJECTS: "worldedit:release"
+      DATAPACKS: "https://github.com/Seeloewen/Random-Item-Giver-Datapack/releases/download/1.6.0/random-item-giver-1-6-0-mc-26-1.zip"
     volumes:
       - ./data:/data
