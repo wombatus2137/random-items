@@ -9,17 +9,16 @@ services:
     environment:
       EULA: "TRUE"
       TYPE: "PAPER"
-      VERSION: "26.1.2"
+      VERSION: "26.2"
       INIT_MEMORY: "2G"
       MAX_MEMORY: "4G"
       USE_MEOWICE_FLAGS: "true"
       ENABLE_COMMAND_BLOCK: "true"
       SIMULATION_DISTANCE: "8"
       VIEW_DISTANCE: "8"
-      LEVEL: "los"
       SPAWN_PROTECTION: "0"
       MAX_PLAYERS: "10"
       MODRINTH_PROJECTS: "worldedit"
-      DATAPACKS: "https://github.com/Seeloewen/Random-Item-Giver-Datapack/releases/download/1.6.0/random-item-giver-1-6-0-mc-26-1.zip"
+      DATAPACKS: "https://github.com/Seeloewen/Random-Item-Giver-Datapack/releases/download/1.6.1/random-item-giver-1-6-1-mc-26-2.zip"
     volumes:
       - ./data:/data

@@ -9,4 +9,4 @@ Docker container setup for random items Minecraft minigame.
 ## This project uses:
 [itzg/docker-minecraft-server](https://github.com/itzg/docker-minecraft-server)
 
-[Random Item Giver Datapack \[Minecraft 1.16.5 - 26.1\]](https://www.planetminecraft.com/data-pack/random-item-giver-datapack-1-0-0-minecraft-1-16-2/)
+[Random Item Giver Datapack \[Minecraft 1.16.5 - 26.2\]](https://www.planetminecraft.com/data-pack/random-item-giver-datapack-1-0-0-minecraft-1-16-2/)
